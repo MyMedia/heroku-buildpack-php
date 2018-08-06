@@ -4,6 +4,7 @@
 
 env
 echo "env_dir=${3:-}"
+ls -li $3
 
 # fail hard
 set -o pipefail
